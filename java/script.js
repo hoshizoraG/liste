@@ -53,6 +53,15 @@ const gifts = [
     prix: 4000000,
     liens: ["#"]
   },
+  {
+    nom: "Mangas one piece",
+    images: ["images/argent.jpg"],
+    description: "Des mangas one piece pour completer ma collection. Faites attention j'en ai deja donc regardez bien sur mon lien pour par vous tromper.",
+    genre: "Livre",
+    desir: 5,
+    prix: 7.20,
+    liens: ["#"]
+  },
 ];
 
 // Élément principal de la liste
