@@ -55,7 +55,7 @@ const gifts = [
   },
   {
     nom: "Mangas one piece",
-    images: ["images/argent.jpg"],
+    images: ["images/wano.jpg"],
     description: "Des mangas one piece pour completer ma collection. Faites attention j'en ai deja donc regardez bien sur mon lien pour par vous tromper.",
     genre: "Livre",
     desir: 5,
