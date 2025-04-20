@@ -62,6 +62,15 @@ const gifts = [
     prix: 7.20,
     liens: ["#"]
   },
+  {
+    nom: "Meuble",
+    images: ["images/mauble.jpg"],
+    description: "Meuble 2X2 pour mes mangas AVEC fond blanc.",
+    genre: "Meuble",
+    desir: 4,
+    prix: 55,
+    liens: ["https://www.ikea.com/fr/fr/p/eket-rangement-4-compartiments-blanc-60333954/"]
+  },
 ];
 
 // Élément principal de la liste
