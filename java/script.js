@@ -4,7 +4,7 @@ const gifts = [
     images: ["images/emilia.webp"],
     description: "Figurine de Emilia de Re:Zero, pas forcément celle la. Peut être d'occasion tant que c'est en bon état.",
     genre: "Figurine",
-    desir: 3,
+    desir: 2,
     prix: 40,
     liens: ["#"]
   },
@@ -13,7 +13,7 @@ const gifts = [
     images: ["images/rem.jpg"],
     description: "Figurine de Rem de Re:Zero, pas forcément celle la. Peut être d'occasion tant que c'est en bon état.",
     genre: "Figurine",
-    desir: 3,
+    desir: 2,
     prix: 40,
     liens: ["#"]
   },
@@ -22,14 +22,14 @@ const gifts = [
     images: ["images/kids.jpg", "images/Swimming.jpg"],
     description: "J'ai déjà the divine feminine et circles. Priorisez swimming et KIDS.",
     genre: "Musique",
-    desir: 4,
+    desir: 3,
     prix: 30,
     liens: ["https://www.fnac.com/a20709582/Mac-Miller-K-I-D-S-Edition-Limitee-Vinyle-Jaune-Translucide-Vinyle-album", "https://www.fnac.com/a12965302/Mac-Miller-Swimming-Vinyle-album"]
   },
   {
     nom: "Figurine de Ruby",
     images: ["images/ruby.jpg"],
-    description: "Figurine de Ruby de Oshi no ko. Je veux forcément celle la. De la marque bampresto. Peut être d'occasion tant que c'est en bon état.",
+    description: "Figurine de Ruby de Oshi no ko. Je veux forcément celle la. De la marque banpresto. Peut être d'occasion tant que c'est en bon état.",
     genre: "Figurine",
     desir: 5,
     prix: 40,
@@ -58,18 +58,36 @@ const gifts = [
     images: ["images/wano.jpg"],
     description: "Des mangas one piece pour completer ma collection. Faites attention j'en ai deja donc regardez bien sur mon lien pour par vous tromper.",
     genre: "Livre",
-    desir: 5,
+    desir: 4,
     prix: 7.20,
     liens: ["#"]
   },
   {
     nom: "Meuble",
     images: ["images/mauble.jpg"],
-    description: "Meuble 2X2 pour mes mangas AVEC fond blanc.",
+    description: "Meuble 2X2 blanc pour mes mangas AVEC fond.",
     genre: "Meuble",
     desir: 4,
     prix: 55,
     liens: ["https://www.ikea.com/fr/fr/p/eket-rangement-4-compartiments-blanc-60333954/"]
+  },
+  {
+    nom: "Tome 42 de my hero academia collector",
+    images: ["images/mha.jpg"],
+    description: "Tome 42 de my hero academia collector, il sort le 5 juin",
+    genre: "Meuble",
+    desir: 3,
+    prix: 39.90,
+    liens: ["https://www.fnac.com/a21350205/My-Hero-Academia-My-Hero-Academia-T42-Plus-Ultra-Collector-Kohei-Horikoshi"]
+  },
+  {
+    nom: "Mangas les 100 petites amies qui t'aiment à en mourir",
+    images: ["images/100kanojo1.jpg", "images/100kanojo2.jpg"],
+    description: "Collection complète des mangas \"les 100 petites amies qui t'aiment à en mourir\". Il y en a 11 en TouT. ",
+    genre: "Meuble",
+    desir: 5,
+    prix: 7.95,
+    liens: ["https://www.fnac.com/a17951757/Les-100-Petites-Amies-qui-t-aiiiment-a-en-Mourir-Les-100-petites-amies-qui-t-aiiiment-a-en-mourir-01-Rikito-Nakamura"]
   },
 ];
 
