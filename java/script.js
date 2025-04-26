@@ -75,7 +75,7 @@ const gifts = [
     nom: "Tome 42 de my hero academia collector",
     images: ["images/mha.jpg"],
     description: "Tome 42 de my hero academia collector, il sort le 5 juin",
-    genre: "Meuble",
+    genre: "Livre",
     desir: 3,
     prix: 39.90,
     liens: ["https://www.fnac.com/a21350205/My-Hero-Academia-My-Hero-Academia-T42-Plus-Ultra-Collector-Kohei-Horikoshi"]
@@ -84,7 +84,7 @@ const gifts = [
     nom: "Mangas les 100 petites amies qui t'aiment à en mourir",
     images: ["images/100kanojo1.jpg", "images/100kanojo2.jpg"],
     description: "Collection complète des mangas \"les 100 petites amies qui t'aiment à en mourir\". Il y en a 11 en TouT. ",
-    genre: "Meuble",
+    genre: "Livre",
     desir: 5,
     prix: 7.95,
     liens: ["https://www.fnac.com/a17951757/Les-100-Petites-Amies-qui-t-aiiiment-a-en-Mourir-Les-100-petites-amies-qui-t-aiiiment-a-en-mourir-01-Rikito-Nakamura"]
