@@ -38,7 +38,7 @@ const gifts = [
   {
     nom: "Mangas",
     images: ["images/chi.gif"],
-    description: "Pleins de mangas pour compléter mes collections. Mon lien ci dessous.",
+    description: "Pleins de mangas pour compléter mes collections. Privilegiez des séries où il me reste peu de tomes à avoir. Mon lien ci dessous.",
     genre: "Livre",
     desir: 5,
     prix: 7,
@@ -49,7 +49,7 @@ const gifts = [
     images: ["images/argent.jpg"],
     description: "Beaucoup.",
     genre: "Autre",
-    desir: 1,
+    desir: 5,
     prix: 4000000,
     liens: ["#"]
   },
@@ -83,7 +83,7 @@ const gifts = [
   {
     nom: "Mangas les 100 petites amies qui t'aiment à en mourir",
     images: ["images/100kanojo1.jpg", "images/100kanojo2.jpg"],
-    description: "Collection complète des mangas \"les 100 petites amies qui t'aiment à en mourir\". Il y en a 11 en TouT. ",
+    description: "Collection complète des mangas \"les 100 petites amies qui t'aiment à en mourir\". Il y en a 11 en Tout. ",
     genre: "Livre",
     desir: 5,
     prix: 7.95,
