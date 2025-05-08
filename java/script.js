@@ -83,7 +83,7 @@ const gifts = [
   {
     nom: "Mangas les 100 petites amies qui t'aiment à en mourir",
     images: ["images/100kanojo1.jpg", "images/100kanojo2.jpg"],
-    description: "Collection complète des mangas \"les 100 petites amies qui t'aiment à en mourir\". Il y en a 11 en Tout. ",
+    description: "Collection complète des mangas \"les 100 petites amies qui t'aiment à en mourir\". Il y en a 11 en Tout mais j'ai déjà les 7 premiers. ",
     genre: "Livre",
     desir: 5,
     prix: 7.95,
