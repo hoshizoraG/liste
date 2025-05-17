@@ -89,6 +89,15 @@ const gifts = [
     prix: 7.95,
     liens: ["https://www.fnac.com/a17951757/Les-100-Petites-Amies-qui-t-aiiiment-a-en-Mourir-Les-100-petites-amies-qui-t-aiiiment-a-en-mourir-01-Rikito-Nakamura"]
   },
+  {
+    nom: "Mazda Rx7 FC3S",
+    images: ["images/rx7.jpg"],
+    description: "Mazda Rx7 FC3S. Bon ok je m'attend pas à l'avoir mais si vous vous voulez mettre dans mon cadeau un petit peu plus d'argent je serai heureux. ( vraiment un tout petit peu plus )", 
+    genre: "Autre",
+    desir: 5,
+    prix: 15000,
+    liens: ["#"]
+  },
 ];
 
 // Élément principal de la liste
