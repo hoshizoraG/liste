@@ -266,3 +266,11 @@ function appliquerFiltres() {
 
   afficherCadeaux(filtres);
 }
+
+fetch("compteur.php")
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById("view-counter").textContent = data;
+  })
+  .catch(error => console.error("Erreur lors du chargement du compteur :", error));
+
