@@ -47,6 +47,13 @@ h1 {
   height: auto;
 }
 
+.header-gif2 {
+  position: absolute;
+  right: 1rem;
+  width: 60px; 
+  height: auto;
+}
+
 .popup {
   display: none;
   position: fixed;
