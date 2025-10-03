@@ -313,7 +313,7 @@ select {
     width: 35px;
     height: auto;
     position: absolute;
-    top: 0.8rem;
+    top: 1.7rem;
     left: 0.8rem;
   }
 
@@ -321,7 +321,7 @@ select {
     width: 35px;
     height: auto;
     position: absolute;
-    top: 0.8rem;
+    top: 1.7rem;
     right: 0.8rem;
   }
 
@@ -390,13 +390,13 @@ select {
 
   .header-gif {
     width: 25px;
-    top: 0.5rem;
+    top: 2rem;
     left: 0.5rem;
   }
 
   .header-gif2 {
     width: 25px;
-    top: 0.5rem;
+    top: 2rem;
     right: 0.5rem;
   }
 
