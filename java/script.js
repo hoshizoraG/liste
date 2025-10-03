@@ -17,6 +17,33 @@ const gifts = [
     prix: 4000000,
     liens: ["#"]
   },
+  {
+    nom: "Un cuiseur de riz",
+    images: ["images/riz.webp"],
+    description: "Je ne sais pas quel modèle, je n'y connais rien. Tant qu'il marche je serai content je pense.",
+    genre: "Autre",
+    desir: 4,
+    prix: 50,
+    liens: ["#"]
+  },
+  {
+    nom: "Un sweat orange basique",
+    images: ["images/sweat.jpg"],
+    description: "Sweat orange basique taille XL.",
+    genre: "Vetement",
+    desir: 3,
+    prix: 40,
+    liens: ["#"]
+  },
+  {
+    nom: "T-shirts basiques ",
+    images: ["images/tshirt.jpg"],
+    description: "T-shirts basiques de couleur unie mais pas blanc ou noir en taille XL.",
+    genre: "Vetement",
+    desir: 3,
+    prix: 15,
+    liens: ["#"]
+  },
 ];
 
 // Élément principal de la liste
