@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Liste de Gaspard. Découvrez ses souhaits de cadeaux.">
+    <meta name="author" content="Gaspard">
+    <link rel="icon" href="images/cadeau.png" type="image/png">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Ma Liste</title>
+</head>
+<body>
+  <header>
+    <img src="images/waifu.gif" alt="GIF amusant" class="header-gif" />
+    <div class="header-text">
+      <h1>🎁 Mes idées de cadeaux</h1>
+      <p class="subtitle">De moi, votre fils/petit-fils/neveu/frère/cousin/père alias Gaspard. ( C'est une blague le dernier hein )</p>
+    </div>
+  </header>
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <span class="popup-close" id="popup-close">&times;</span>
+      <h2>Bienvenue sur mon site !</h2>
+      <p>Coucou, une nouvelle fois vous pourrez naviguer sur mon joli site afin de savoir quoi me donner pour me faire plaisir. Même si cette année je n'ai pas vraiment d'idées à part de l'argent pour vivre et aussi rendre ma voiture meilleure.</p>
+    </div>
+  </div>
+  <div class="top-controls">
+    <button id="open-filters" class="filter-button">⚙️ Filtrer</button>
+    <div class="search-bar">
+      <input type="text" id="search-input" placeholder="🔍 Rechercher un cadeau..." />
+    </div>
+  </div>
+  <div id="filter-modal" class="modal">
+    <div class="modal-content">
+      <span id="close-filters" class="close">&times;</span>
+      <h2>Filtres</h2>
+      <label for="filter-genre">Genre :</label>
+      <select id="filter-genre">
+        <option value="">Tous</option>
+        <option value="Figurine">Figurine</option>
+        <option value="Musique">Musique</option>
+        <option value="Livre">Livre</option>
+        <option value="Meuble">Meuble</option>
+        <option value="Autre">Autre</option>
+      </select>
+      <label for="filter-prix-min">Prix min (€) :</label>
+      <input type="number" id="filter-prix-min" min="0">
+      <label for="filter-prix-max">Prix max (€) :</label>
+      <input type="number" id="filter-prix-max" min="0">
+      <label for="filter-desir-min">Désir min :</label>
+      <input type="number" id="filter-desir-min" min="1" max="5" value="1">
+      <label for="filter-desir-max">Désir max :</label>
+      <input type="number" id="filter-desir-max" min="1" max="5" value="5">
+      <div class="modal-buttons">
+        <button id="apply-filters">Appliquer les filtres</button>
+        <button id="reset-filters">Réinitialiser</button>
+      </div>
+    </div>
+  </div>
+    <main id="gift-list"></main>
+  <script src="java/script.js"></script>
+</body>
+</html>
