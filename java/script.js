@@ -37,7 +37,7 @@ const gifts = [
   },
   {
     nom: "T-shirts basiques ",
-    images: ["images/tshirt.jpg"],
+    images: ["images/tshirt1.jpg", "images/tshirt2.jpg"],
     description: "T-shirts basiques de couleur unie mais pas blanc ou noir en taille XL.",
     genre: "Vetement",
     desir: 3,
