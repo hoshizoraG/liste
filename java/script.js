@@ -2,7 +2,7 @@ const gifts = [
   {
     nom: "Mangas",
     images: ["images/chi.gif"],
-    description: "Pleins de mangas pour compléter mes collections. Privilegiez des séries où il me reste peu de tomes à avoir. Mon lien ci dessous.",
+    description: "Pleins de mangas pour compléter mes collections. Privilegiez des séries où il me reste peu de tomes à avoir. Mon lien ci dessous. Peuvent être d'occasion ( ça m'en ferai plus :b ) mais verifiez bien l'état avant d'acheter svp. ( pas de tranches jaunies, pages cornées, couvertures abimées, etiquettes collées etc... )",
     genre: "Livre",
     desir: 5,
     prix: 7,
@@ -11,7 +11,7 @@ const gifts = [
   {
     nom: "De la moula",
     images: ["images/argent.jpg"],
-    description: "Pour payer ma vie entre autres. ( Et pourquoi un pack M2 sur ma BM et des jantes.)",
+    description: "Pour payer ma vie entre autres.",
     genre: "Autre",
     desir: 5,
     prix: 4000000,
@@ -27,21 +27,30 @@ const gifts = [
     liens: ["#"]
   },
   {
-    nom: "Un sweat orange basique",
-    images: ["images/sweat.jpg"],
-    description: "Sweat orange basique taille XL.",
+    nom: "Carte Cadeau Celio",
+    images: ["images/celio.jpg"],
+    description: "Rien à dire de plus si ce n'est que je suis heureux.",
     genre: "Vetement",
     desir: 3,
-    prix: 40,
+    prix: "beaucoup d'",
     liens: ["#"]
   },
   {
-    nom: "T-shirts basiques ",
-    images: ["images/tshirt1.jpg", "images/tshirt2.jpg"],
-    description: "T-shirts basiques de couleur unie mais pas blanc ou noir en taille XL.",
-    genre: "Vetement",
-    desir: 3,
-    prix: 15,
+    nom: " Une petite tuture ",
+    images: ["images/subaru.webp"],
+    description: "Une veritabe Subaru impreza wrx sti 4 cylindres en ligne turbo 300ch. En boite manuelle bien sur.",
+    genre: "Blague",
+    desir: 5,
+    prix: 30000,
+    liens: ["#"]
+  },
+  {
+    nom: " Un PC",
+    images: ["images/pc.jpg"],
+    description: "Un pc un minimum performant et pas trop vieux non plus. C'est pas pour jouer ou travailler dessus mais juste pour lui changer son système d'exploitation et le bidouiller donc pas besoin d'y mettre des milles et des cents. Il peut meme etre d'occasion tant qu'il marche bien.",
+    genre: "Informatique",
+    desir: 4,
+    prix: 100,
     liens: ["#"]
   },
 ];
