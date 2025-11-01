@@ -593,6 +593,21 @@ select {
   box-shadow: 0 5px 15px rgba(255, 193, 7, 0.2);
 }
 
+.card::before {
+  pointer-events: none;
+}
+
+.card {
+  position: relative;
+  z-index: 1;
+}
+
+.links a {
+  position: relative;
+  z-index: 2;
+}
+
+
 @media (max-width: 768px) {
   body {
     padding: 1rem;
@@ -664,6 +679,7 @@ select {
   .header-gif2 {
     width: 40px;
   }
+
 
   h1 {
     font-size: 1.3rem;

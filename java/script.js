@@ -47,11 +47,20 @@ const gifts = [
   {
     nom: " Un PC",
     images: ["images/pc.jpg"],
-    description: "Un pc un minimum performant et pas trop vieux non plus. C'est pas pour jouer ou travailler dessus mais juste pour lui changer son système d'exploitation et le bidouiller donc pas besoin d'y mettre des milles et des cents. Il peut meme etre d'occasion tant qu'il marche bien.",
+    description: "Un pc un minimum performant et pas trop vieux non plus. C'est pas pour jouer donc pas besoin d'y mettre des milles et des cents. Il peut meme etre d'occasion tant qu'il marche bien.",
     genre: "Informatique",
     desir: 4,
-    prix: 100,
+    prix: undefined,
     liens: ["#"]
+  },
+  {
+    nom: "Intégrale du manga Citrus",
+    images: ["images/citrus.jpg"],
+    description: "Il y a 2 packs, un du tome 1 à 5 et un du tome 6 à 10. Je veux les deux. Ils sortent le 21 novembre.",
+    genre: "Livre",
+    desir: 5,
+    prix: 50,
+    liens: ["https://www.fnac.com/a21723847/Citrus-Pack-T01-a-T05-Citrus-Saburouta","https://www.fnac.com/a21723848/Citrus-Pack-T06-a-T10-Citrus-Saburouta"]
   },
 ];
 
