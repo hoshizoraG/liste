@@ -62,6 +62,15 @@ const gifts = [
     prix: 50,
     liens: ["https://www.fnac.com/a21723847/Citrus-Pack-T01-a-T05-Citrus-Saburouta","https://www.fnac.com/a21723848/Citrus-Pack-T06-a-T10-Citrus-Saburouta"]
   },
+  {
+    nom: "Tome 6 de 86",
+    images: ["images/86.jpg"],
+    description: "Le tome 6 du Light Novel de 86 eighty six. C'est bien le Light novel pas le manga. Il sort le 5 décembre.",
+    genre: "Livre",
+    desir: 4,
+    prix: 15.50,
+    liens: ["https://www.fnac.com/a21723819/86-Eighty-Six-86-Eighty-Six-Tome-06-Asato-Asato"]
+  },
 ];
 
 // Élément principal de la liste
